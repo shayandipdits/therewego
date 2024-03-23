@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+::-webkit-scrollbar
+{
+    width: 3px;
+}
+::-webkit-scrollbar-track
+{
+    background: #FFF;
+}
+::-webkit-scrollbar-thumb
+{
+    background: #000;
+}
+body
+{
+    font-family: "Roboto", sans-serif;
+}

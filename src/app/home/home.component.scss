@@ -1,0 +1,254 @@
+.carpool_bannerarea
+{
+    padding: 0px;
+    position: relative;
+}
+.carpool_bannerarea::before
+{
+    content: '';
+    width: 100%;
+    height: 99%;
+    background: rgb(0 0 0 / 35%);
+    position: absolute;
+}
+.capoolvideo_design
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.banner_fusection
+{
+    position: absolute;
+    content: "";
+    top: 20%;
+    left: 0px;
+    padding: 0px 0px 0px 0px;
+}
+.leftbkfrm_outarea
+{
+    border: none;
+}
+.rightbkfrm_outarea
+{
+    border: none;
+}
+.dcharacterimg_design
+{
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    top: 0px;
+    position: relative;
+}
+.cftp_textdesign
+{
+    font-size: 44px;
+    font-family: "Concert One", sans-serif;
+    padding: 70px 0px 0px 0px;
+    color: #FFF;
+    margin: 0px;
+}
+.cftp_textdesign1
+{
+    font-size: 22px;
+    padding: 10px 0px 0px 0px;
+    color: #FFF;
+    max-width: 440px;
+    line-height: 35px;
+}
+.fsutext_design
+{
+    font-family: "Permanent Marker", cursive;
+    font-size: 27px;
+    padding: 0px 0px 0px 0px;
+    color: #FFF;
+}
+.booking_area
+{
+    margin: 20px 0px 0px 0px;
+    box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.05), inset -3px -3px 3px rgba(255, 255, 255, 0.5), 3px 3px 3px rgba(0, 0, 0, 0.05), -3px -3px 3px rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 20px  20px;
+    background: #FFF;
+}
+.booking_area1
+{
+    background: rgb(248, 248, 248);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+.nratext_design
+{
+    font-family: "Concert One", sans-serif;
+    margin: 0px;
+    font-size: 30px;
+}
+.fran_textdesign
+{
+    font-size: 17px;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+}
+.formx_outsection
+{
+    margin: 15px 0px 0px 0px;
+    position: relative;
+}
+.ftinputtext_design
+{
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #ececec;
+    border: none;
+    outline: none;
+    padding: 0px 0px 0px 35px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.ftinlocation_icondesign
+{
+    position: absolute;
+    top: 18px;
+    left: 12px;
+}
+.odte_outsectionx
+{
+    margin: 20px 0px 0px 0px;
+}
+.ftinputtext_design1
+{
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #ececec;
+    border: none;
+    outline: none;
+    padding: 0px 20px 0px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.fndbtn_area
+{
+    margin: 20px 0px 0px 0px;
+}
+.fndsars_btndesign
+{
+    background-color: #ff4f02;
+    width: 190px;
+    border-radius: 50px;
+    height: 60px;
+    line-height: 60px;
+    color: #FFF;
+    font-size: 18px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.jabout_twegooutsection
+{
+    margin: 70px 0px 0px 0px;
+}
+.leftabout_outsection
+{
+    border: none;
+}
+.aus_textdesign
+{
+    color: #ff4f02;
+    margin: 0px;
+    font-family: "Concert One", sans-serif;
+    font-size: 30px;
+    position: relative;
+}
+.aus_textdesign::before
+{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 24%;
+    background: #ff4f02;
+    opacity: 0.2;
+    left: -3px;
+    bottom: 0;
+}
+.wped_textdesign
+{
+    font-size: 33px;
+    margin: 0px;
+    font-weight: 600;
+    padding: 15px 0px 0px 0px;
+}
+.bces_text
+{
+    color: #ff4f02;
+    font-size: 40px;
+}
+.tmpr_txtdesign
+{
+    text-align: justify;
+    font-size: 14px;
+    margin: 0px;
+    padding: 15px 0px 0px 0px;
+    color: #444;
+    font-weight: 400;
+}
+.abty_listoutsection
+{
+  margin: 0px;
+  padding: 0px;
+}
+.abty_listoutsection li 
+{
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    padding: 20px 0px 0px 0px;
+}
+.abty_listoutsection i 
+{
+   color: #ff4f02;
+}
+.abty_listoutsection span {
+    color: #000;
+    font-size: 15px;
+    padding: 0px 0px 0px 10px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: justify;
+}
+.rightabout_imgoutsection
+{
+    border: none;
+    padding: 100px 0px 0px 0px;
+}
+.jzximgz_design
+{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.drembtn_design
+{
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: #ff4f02;
+    color: #FFF;
+    margin: 30px 0px 0px 0px;
+    font-weight: 600;
+    line-height: 55px;
+}
+.dremicn_design
+{
+   font-size: 20px;
+   padding: 0px 0px 0px 5px;
+}
