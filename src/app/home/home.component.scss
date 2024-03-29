@@ -36,13 +36,107 @@
     padding: 190px 0px 50px 0px;
     position: relative;
 }
+.brdf_area
+{
+    width: 210px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #F3FDF8;
+    padding: 12px 0px 0px 0px;
+    margin: 70px 0px 0px 0px;
+    position: relative;
+}
+.pulsating-circle {
+    position: absolute;
+    left: 12%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 15px;
+    height: 15px;
+  }
+  .pulsating-circle:before {
+    content: "";
+    position: relative;
+    display: block;
+    width: 300%;
+    height: 300%;
+    box-sizing: border-box;
+    margin-left: -100%;
+    margin-top: -100%;
+    border-radius: 45px;
+    background-color: #319A64;
+    -webkit-animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  }
+  .pulsating-circle:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #319A64;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    -webkit-animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+    animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+  }
+  
+  @-webkit-keyframes pulse-ring {
+    0% {
+      transform: scale(0.33);
+    }
+    80%, 100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(0.33);
+    }
+    80%, 100% {
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes pulse-dot {
+    0% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  }
+  @keyframes pulse-dot {
+    0% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  }
+.brd_stextdesign
+{
+    color: #0a4624;
+    text-align: center;
+    font-size: 14px;
+    padding: 0px 0px 0px 30px;
+    margin: 0px;
+}
 .trghtbanner_textdesign
 {
     text-align: left;
     color: #FFF;
     font-size: 50px;
     margin: 0px;
-    padding: 140px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
     width: 580px;
 }
 .thtbanner_describetext
@@ -50,6 +144,650 @@
     text-align: left;
     color: #FFF;
     font-size: 20px;
-    padding: 25px 0px 0px 0px;
+    padding: 25px 0px 20px 0px;
     width: 500px;
+}
+.gapstrebtn_area
+{
+    border: none;
+}
+.hkcvb_areasection1 
+{
+    border: none;
+    outline: none;
+    margin: 0px 15px 0px 0px;
+    width: 180px;
+    height: 62px;
+    border-radius: 7px;
+    animation: shadow-pulse 1.5s infinite;
+    background: #000;
+}
+.lnktext_design 
+{
+  text-decoration: none;
+}
+.area_design1 
+{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 8px 0px 0px 0px;
+}
+.googleplybtn_design 
+{
+    width: 30px;
+}
+.area_design2 
+{
+    width: 68%;
+    float: left;
+}
+.lknmcv_btngl2 
+{
+    font-size: 12px;
+    color: #FFF;
+    text-align: left;
+    padding: 5px 0px 0px 3px;
+    letter-spacing: 0.2px;
+    margin: 0px;
+}
+.lknmcv_btngl1 
+{
+    font-size: 17px;
+    color: #FFF;
+    font-weight: 800;
+    text-align: left;
+    padding: 0px 0px 0px 3px;
+    letter-spacing: 1px;
+}
+.cababout_outsection
+{
+    margin: 80px 0px 0px 0px;
+}
+.abtleft_outsection
+{
+    position: relative;
+}
+.abtfstimg_design
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.abtscndimg_design
+{
+    position: absolute;
+    bottom: -28%;
+    right: -10%;
+    border: 10px solid #FFF;
+}
+.abtrght_outsection
+{
+    margin: 20px 0px 0px 50px;
+}
+.wdntext_design
+{
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0px;
+}
+.wdntext_design1
+{
+    font-size: 20px;
+    color: #000000;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+}
+.cstxt_textdesign
+{
+    color: #444;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 20px 0px 0px 0px;
+}
+.cstxt_textdesign1
+{
+    color: #444;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px 0px 18px 0px;
+}
+.antlstmain_area
+{
+    margin: 0px;
+    padding: 0px;
+}
+.kbox_section
+{
+    border: none;
+}
+.kshldtax_imgdesign
+{
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.kboxcontent_section
+{
+    border: none
+}
+.khcng_txtdesign
+{
+    color: #000;
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 700;
+    padding: 6px 0px 0px 0px;
+}
+.lkpterxt_design
+{
+    color: #444;
+    margin: 0px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 7px 0px 0px 0px;
+}
+.drembtn_design
+{
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: #ff4f02;
+    color: #FFF;
+    margin: 30px 0px 0px 0px;
+    font-weight: 600;
+    line-height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.dremicn_design
+{
+   font-size: 20px;
+   padding: 0px 0px 0px 5px;
+}
+.osrvc_outsection
+{
+    margin: 70px 0px 0px 0px;
+    padding: 40px 0px 40px 0px;
+    background-image: url('http://localhost:4200/assets/images/bg-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.aus_textdesign1
+{
+    text-align: center;
+    color: #ff4f02;
+    margin: 0px;
+    font-size: 30px;
+    position: relative;
+}
+.bsfc_textdesign
+{
+    text-align: center;
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFF;
+}
+.srvcy_outsection
+{
+    margin: 50px 0px 0px 0px;
+}
+.srvcbox_outsection
+{
+    box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.05), inset -3px -3px 3px rgba(255, 255, 255, 0.5), 3px 3px 3px rgba(0, 0, 0, 0.05), -3px -3px 3px rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 15px 15px;
+    background: #FFF;
+    position: relative;
+    margin: 0px 15px 15px 15px;
+}
+.srvcbox_outsection1
+{
+    background: rgb(248, 248, 248);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+.srvc_imgdesign
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.circle_srvcstriucture
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    right: 13%;
+    background: #ff4f02;
+    top: 44%;
+}
+.srvcicon_design
+{
+    text-align: center;
+    width: 45px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block !important;
+    padding: 11px 0px 0px 0px;
+}
+.oboking_icondesign
+{
+    font-size: 23px;
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+}
+.obookng_textdesign
+{
+    text-align: justify;
+    font-size: 15px;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    color: #8d8d8d;
+}
+.rmebtnrebtn_design
+{
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: #ff4f02;
+    color: #FFF;
+    margin: 30px 0px 0px 0px;
+    font-weight: 600;
+    line-height: 55px;
+}
+.grmicon_design
+{
+    font-size: 20px;
+    padding: 0px 0px 0px 5px;
+}
+.jcrclimg_design
+{
+    position: absolute;
+    top: 0px;
+}
+.hwitwrks_outsection
+{
+    margin-top: 70px;
+}
+.dsemtext_design
+{
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+    position: relative;
+    color: #000000;
+    font-weight: 700;
+}
+.cityname_area
+{
+    margin: 120px 0px 0px 0px;
+}
+.ctyname_textdesign
+{
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+}
+.animated_cabarea
+{
+    margin-top: 30px;
+}
+.ifrmcar_design
+{
+    width: 100%;
+    height: 100%;
+}
+.facilitymain_outarea
+{
+   background-image: url('http://localhost:4200/assets/images/faciliti-backgrounds.jpg');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   margin: 70px 0px 0px 0px;
+   position: relative;
+}
+.facilitymain_outarea::before
+{
+    content: '';
+    position: absolute;
+    background-color: #00000030;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+.faciliti_outsection
+{
+    margin: 70px 0px 0px 0px;
+}
+.tvgx_textdesign
+{
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+    position: relative;
+    color: #FFF;
+    font-weight: 700;
+}
+.faciliti_singleoutsection
+{
+    background: #f9f9f9;
+    margin: 40px 0px 40px 0px;
+    border-radius: 10px;
+    padding: 15px 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    position: relative;
+    cursor: pointer;
+}
+.faciliti_singleoutsection:hover
+{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.facimg_design
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.faciliti_cntarea
+{
+    background-color: #000;
+    position: absolute;
+    bottom: 3%;
+    border-radius: 0px 0px 10px 10px;
+    width: 92.7%;
+}
+.fasbut_textdesign
+{
+    color: #FFF;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px 0px 10px 15px;
+}
+.fsbut_ptextdesign
+{
+    color: #FFF;
+    font-size: 13px;
+    text-align: justify;
+    padding: 0px 15px;
+}
+.ourcity_outsectionx
+{
+    margin: 70px 0px 0px 0px;
+}
+.ctesx_textdesign
+{
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+    position: relative;
+    color: #000000;
+    font-weight: 700;
+}
+.scity_outarea
+{
+    margin: 40px 0px 0px 0px;
+    overflow: hidden;
+    box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.05), inset -3px -3px 3px rgba(255, 255, 255, 0.5), 3px 3px 3px rgba(0, 0, 0, 0.05), -3px -3px 3px rgba(255, 255, 255, 0.5);
+    background-color: #FFF;
+    padding: 15px 15px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.scity_outarea1
+{
+    background: rgb(248, 248, 248);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.ctsimgx_design
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.jblack_bcnkgrndarea
+{
+    background-color: #242526;
+    position: absolute;
+    bottom: 10.7%;
+    border-radius: 0px 0px 10px 10px;
+    width: 80%;
+    -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+    clip-path: polygon(0 0, 75% 0, 95% 100%, 0 100%);
+}
+.kwalotext_design
+{
+    color: #FFF;
+    font-size: 18px;
+    margin: 0px;
+    padding: 10px 0px 10px 15px;
+}
+.htuapp_outsection
+{
+    margin: 70px 0px 0px 0px;
+    background-image: url('http://localhost:4200/assets/images/appback.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.sergap_outarea
+{
+    position: relative;
+    padding: 70px 0px 40px 0px;
+}
+.htuapp_outsection::before
+{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 72%);
+}
+.huappleft_outsection
+{
+    border: none;    
+}
+.huappimg_outarea
+{
+    border: none;
+}
+.jtaws_imgdesign
+{
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.htuwap_textdesign
+{
+    color: #FFF;
+    font-size: 30px;
+    margin: 0px;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+}
+.leftg_usetion
+{
+    border: none;
+    margin: 0px 0px 40px 0px;
+}
+.kmblicon_design
+{
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.rghtc_usetion
+{
+    border: none;
+    margin: 0px 0px 40px 0px;
+}
+.dtgap_text
+{
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 700;
+    margin: 0px;
+}
+.gop_textdesign
+{
+    font-size: 14px;
+    color: #FFF;
+    text-align: justify;
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+}
+.testimonial_outsection
+{
+    margin: 70px 0px 0px 0px;
+    cursor: pointer;
+}
+.wocstxet_design
+{
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0px;
+    text-align: center;
+}
+.testimnal_ioursection
+{
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 15px 15px;
+    margin: 80px 0px 0px 0px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    position: relative;
+}
+.imgtest_outarea
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #edebea;
+    position: absolute;
+    right: 7%;
+    top: -25%;
+    overflow: hidden;
+    padding: 5px 3px 3px 3px;
+}
+.bwmen_imgdesign
+{
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background: #FFF;
+    border-radius: 50%;
+    height: 80px;
+}
+.clntnme_textdesign
+{
+    color: #000;
+    font-size: 22px;
+    margin: 0px;
+    padding: 40px 0px 0px 20px;
+}
+.rtng_orngtext
+{
+    padding: 0px 0px 0px 20px;
+}
+.jtrp_textdesign
+{
+    text-align: justify;
+    padding: 10px 20px 0px 20px;
+    margin: 0px;
+    color: #444;
+    font-size: 13px;
+}    
+.ourblogs_outsection
+{
+    margin: 70px 0px 30px 0px;
+}
+.wocstxet_design1
+{
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0px;
+    text-align: center;
+}
+.blogs_mainoutsection
+{
+    margin: 60px 0px 0px 0px;
+    border-radius: 7px;
+}
+.jblog_designimg
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    margin: 0px 0px 10px 0px;
+}
+.dateblg_text
+{
+   color: #ff4f02;
+   font-size: 15px;
+   font-weight: 700;
+   padding: 0px 0px 0px 10px;
+}
+.iconblog_design
+{
+    font-size: 15px;
+    padding: 0px 5px 0px 0px;
+}
+.jhblg_txt
+{
+    font-size: 13px;
+    padding: 5px 10px 10px 10px;
+    line-height: 20px;
+    margin: 0px;
+}
+.klxblg
+{
+    text-decoration: none;
+    color: #000;
+}
+.knm_txetarea
+{
+    color: #ff4f02;
+    padding: 0px 0px 0px 10px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+}
+.kmnicn_design
+{
+    color: #ff4f02;
+    padding: 0px 0px 0px 7px;
+    font-size: 15px;
+    cursor: pointer;
 }
