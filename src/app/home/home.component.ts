@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CarouselModule,CommonModule,NgbModule],
+  imports: [CarouselModule,CommonModule,NgbModule,RouterModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

@@ -1,0 +1,183 @@
+.subbanner_outarea
+{
+    border: none;
+    padding: 0px;
+    position: relative;
+    background-image: url(http://localhost:4200/assets/images/breadcum-1.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.subbanner_outarea::before
+{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.43);
+    opacity: 0.4;
+}
+.middle_textarea
+{
+    margin: 220px 0px 0px 0px;
+    position: relative;
+}
+.breadcum_txthdng
+{
+    margin: 0px;
+    color: #FFF;
+    padding: 0px 0px 10px 110px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.breadcum_slinkarea
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.breadcum_slinkarea li
+{
+    list-style: none;
+    color: #FFF;
+    padding: 12px 0px 0px 110px;
+    font-size: 17px;
+}
+.jbrdcum_panarea
+{
+    border: none;
+}
+.kicon_design
+{
+    color: #FFF;
+    font-size: 15px;
+    padding: 0px 15px 0px 0px;
+}
+.kname_textdesign
+{
+    color: #FFF;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 15px 0px 0px;
+    font-size: 17px;
+}
+.cababout_outsection
+{
+    margin: 80px 0px 0px 0px;
+}
+.abtleft_outsection
+{
+    position: relative;
+}
+.abtfstimg_design
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.abtscndimg_design
+{
+    position: absolute;
+    bottom: -28%;
+    right: -10%;
+    border: 10px solid #FFF;
+}
+.abtrght_outsection
+{
+    margin: 20px 0px 0px 50px;
+}
+.wdntext_design
+{
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0px;
+}
+.wdntext_design1
+{
+    font-size: 20px;
+    color: #000000;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+}
+.cstxt_textdesign
+{
+    color: #444;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 20px 0px 0px 0px;
+}
+.cstxt_textdesign1
+{
+    color: #444;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px 0px 18px 0px;
+}
+.antlstmain_area
+{
+    margin: 0px;
+    padding: 0px;
+}
+.kbox_section
+{
+    border: none;
+}
+.kshldtax_imgdesign
+{
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.kboxcontent_section
+{
+    border: none
+}
+.khcng_txtdesign
+{
+    color: #000;
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 700;
+    padding: 6px 0px 0px 0px;
+}
+.lkpterxt_design
+{
+    color: #444;
+    margin: 0px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 7px 0px 0px 0px;
+}
+.drembtn_design
+{
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: #ff4f02;
+    color: #FFF;
+    margin: 30px 0px 0px 0px;
+    font-weight: 600;
+    line-height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.drembtn_design a
+{
+  color: #FFF;
+  text-decoration: none;
+}
+.dremicn_design
+{
+   font-size: 20px;
+   padding: 0px 0px 0px 5px;
+}
