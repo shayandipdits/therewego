@@ -10,7 +10,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-  starRating = 0;
+  starRating = 3;
   customOptions: any = {
     loop: true,
     mouseDrag: true,
