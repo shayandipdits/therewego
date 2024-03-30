@@ -7,7 +7,6 @@
     background-size: cover;
     position: relative;
     z-index: 1;
-    height: 530px;
 }
 .footer_mainoutsection::before
 {
@@ -64,6 +63,24 @@
     left: 3px;
     bottom: -8px;
 }
+.ulinkstext_design1
+{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    padding: 0px 0px 0px 20px;
+}
+.ulinkstext_design1::before
+{
+    background-color: #ff4f02;
+    width: 20%;
+    height: 2px;
+    position: absolute;
+    content: "";
+    left: 24px;
+    bottom: -8px;
+}
 .ufrst_area
 {
   margin: 0px 0px 0px 0px;
@@ -92,7 +109,7 @@
 .ftrpner_textdesign
 {
     color: #ff4f02;
-    font-size: 18px;
+    font-size: 15px;
     margin: 0px;
     padding: 17px 0px 0px 12px;
 }
@@ -124,4 +141,26 @@
     color: #FFF;
     text-decoration: none;
     font-size: 17px;
+}
+.adrstext_design
+{
+    color: #FFF;
+}
+.cpyrgt_poutarea
+{
+    background-color: #000;
+    padding: 15px 0px 15px 0px;
+}
+.fgtr_text
+{
+    text-align: center;
+    color: #FFF;
+    margin: 0px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.kcmpnynme_text
+{
+    color: #FFF;
+    text-decoration: none;
 }
