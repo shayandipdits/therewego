@@ -700,12 +700,13 @@
     background-color: #FFF;
     padding: 15px 15px;
     border-radius: 10px;
+    position: relative;
 }
 .singlebox_testimnlarea1
 {
     background: rgb(248, 248, 248);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    padding: 15px 15px;
+    padding: 25px 25px;
     border-radius: 10px;
 }
 .clnt_imgarea
@@ -733,4 +734,35 @@
     font-size: 22px;
     font-weight: 700;
     padding: 20px 0px 0px 0px;
+    margin: 0px;
+}
+.gstaricon_Design
+{
+    width: 62px;
+}
+.tstcontent_areaout
+{
+    margin: 15px 0px 0px 0px;
+}
+.phttxet_design
+{
+    color: #444;
+    padding: 5px 0px 0px 0px;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 25px;
+}
+.lqte_scarea
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.klnc_icontext
+{
+    font-size: 120px;
+    color: #ffb300;
+    opacity: .2;
 }
