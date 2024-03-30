@@ -42,7 +42,7 @@
     height: 40px;
     border-radius: 50px;
     background-color: #F3FDF8;
-    padding: 12px 0px 0px 0px;
+    padding: 6px 0px 0px 0px;
     margin: 70px 0px 0px 0px;
     position: relative;
 }
@@ -134,10 +134,12 @@
 {
     text-align: left;
     color: #FFF;
-    font-size: 50px;
+    font-size: 48px;
     margin: 0px;
     padding: 40px 0px 0px 0px;
-    width: 580px;
+    width: 600px;
+    line-height: 52px;
+    font-weight: 700;
 }
 .thtbanner_describetext
 {
@@ -146,6 +148,8 @@
     font-size: 20px;
     padding: 25px 0px 20px 0px;
     width: 500px;
+    line-height: 27px;
+    font-weight: 400;
 }
 .gapstrebtn_area
 {
@@ -187,7 +191,7 @@
     font-size: 12px;
     color: #FFF;
     text-align: left;
-    padding: 5px 0px 0px 3px;
+    padding: 0px 0px 0px 3px;
     letter-spacing: 0.2px;
     margin: 0px;
 }
@@ -199,6 +203,7 @@
     text-align: left;
     padding: 0px 0px 0px 3px;
     letter-spacing: 1px;
+    margin: -12px 0px 0px 0px;
 }
 .cababout_outsection
 {
@@ -340,6 +345,7 @@
     margin: 0px;
     font-size: 30px;
     position: relative;
+    padding: 0px 0px 20px 0px;
 }
 .bsfc_textdesign
 {
