@@ -362,6 +362,82 @@
     color: #FFF;
     position: relative;
 }
+.more_serviceoutarea
+{
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    position: relative;
+}
+.msbtn_design {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    width: 210px;
+    height: 50px;
+    border-radius: 9999rem;
+    background: #efefef;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+  
+    & > span.text {
+      color: #121212;
+      width: 100%;
+      text-align: left;
+      padding-block: 12px;
+      padding-left: 24px;
+      z-index: 2;
+      transition: all 200ms ease;
+    }
+  
+    & > div.overlay {
+      color: #ededed;
+      width: 48px;
+      height: calc(100% - 2px);
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 12px;
+      border-radius: inherit;
+      background: #242424;
+      position: absolute;
+      right: 1px;
+      z-index: 1;
+      transition: all 400ms ease;
+    }
+  
+    &:is(:hover, :focus) {
+      & > span.text {
+        color: #ededed;
+      }
+      & > div.overlay {
+        width: calc(100% - 2px);
+        transition: width 200ms ease;
+      }
+    }
+  }
+  
+// .msbtn_design
+// {
+//     width: 140px;
+//     height: 50px;
+//     border: none;
+//     outline: none;
+//     border-radius: 3px;
+//     color: #FFF;
+//     background: #5cad2f;
+//     margin: 13px 10px 0px 0px;
+//     line-height: 45px;
+//     font-size: 14px;
+// }
 .srvcy_outsection
 {
     margin: 50px 0px 0px 0px;
