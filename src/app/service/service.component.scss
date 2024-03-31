@@ -1,0 +1,65 @@
+.subbanner_outarea
+{
+    border: none;
+    padding: 0px;
+    position: relative;
+    background-image: url(http://localhost:4200/assets/images/breadcum-1.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.subbanner_outarea::before
+{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.43);
+    opacity: 0.4;
+}
+.middle_textarea
+{
+    margin: 220px 0px 0px 0px;
+    position: relative;
+}
+.breadcum_txthdng
+{
+    margin: 0px;
+    color: #FFF;
+    padding: 0px 0px 10px 110px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.breadcum_slinkarea
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.breadcum_slinkarea li
+{
+    list-style: none;
+    color: #FFF;
+    padding: 12px 0px 0px 110px;
+    font-size: 17px;
+}
+.jbrdcum_panarea
+{
+    border: none;
+}
+.kicon_design
+{
+    color: #FFF;
+    font-size: 15px;
+    padding: 0px 15px 0px 0px;
+}
+.kname_textdesign
+{
+    color: #FFF;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 15px 0px 0px;
+    font-size: 17px;
+}
