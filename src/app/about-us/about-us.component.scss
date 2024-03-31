@@ -87,7 +87,7 @@
 }
 .abtrght_outsection
 {
-    margin: 20px 0px 0px 50px;
+    margin: 60px 0px 0px 50px;
 }
 .wdntext_design
 {
@@ -183,8 +183,8 @@
 }
 .mainmvout_section
 {
-    margin: 180px 0px 0px 0px;
-    background-image: url(http://localhost:4200/assets/images/bg-blur.png);
+    margin: 140px 0px 0px 0px;
+    background-image: url(http://localhost:4200/assets/images/app-promotion-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -202,13 +202,13 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    max-width: 90%;
+    max-width: 80%;
     height: auto;
 }
 .rgtctnt_section
 {
     border: none;
-    padding: 150px 0px 0px 50px;
+    padding: 115px 0px 0px 50px;
 }
 .apps_textdesign
 {
@@ -303,4 +303,49 @@
 .ktwapbtn_area
 {
     margin: 20px 0px 0px 0px;
+}
+.mviout_mainsection
+{
+    margin: 70px 0px 70px 0px;
+}
+.mvileft_mainsection
+{
+    border: none;
+}
+.kmvimg_design
+{
+    width: 100%;
+    height: 100%;
+}
+.mviright_mainsection
+{
+    border: none;
+}
+.tmntext_design
+{
+    font-size: 30px;
+    margin: 0px;
+    padding: 60px 0px 0px 0px;
+    font-weight: 700;
+    color: #ff4f02;
+    text-align: center;
+    position: relative;
+}
+.tmntext_design::before
+{
+    background-color: #ff4f02;
+    width: 20%;
+    height: 2px;
+    position: absolute;
+    content: "";
+    bottom: -8px;
+    left: auto;
+}
+.mvnp_textdesign
+{
+    text-align: justify;
+    font-size: 14px;
+    padding: 30px 0px 0px 0px;
+    color: #444;
+    line-height: 25px;
 }
