@@ -7,8 +7,8 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 
 export const routes: Routes = [
     {path:'' , component:HomeComponent},
-    {path:'about-us' , component:AboutUsComponent, pathMatch: 'full'},
-    {path:'services' , component:ServiceComponent, pathMatch: 'full'},
-    {path:'service-details/:id' , component:ServiceDetailsComponent, pathMatch: 'full'},
-    {path:'how-it-works' , component:HowItWorksComponent, pathMatch: 'full'}
+    {path:'about-us' , component:AboutUsComponent},
+    {path:'services' , component:ServiceComponent},
+    {path:'service-details/:id' , component:ServiceDetailsComponent},
+    {path:'how-it-works' , component:HowItWorksComponent}
 ];
