@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import {CityService} from "../services/city.service";
 import {environment} from "../../environments/environment";
+import {ServicesService} from "../services/services.service";
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -44,10 +45,15 @@ export class HomeComponent {
   }
 
   cityList: any[] = [];
-  constructor(private cityService: CityService) {
+  serviceList: any[] = [];
+  constructor(private cityService: CityService, private servicesService:ServicesService) {
     this.cityService.getCityListListener().subscribe((response) => {
       this.cityList = response;
     });
     this.cityList = this.cityService.getCityList();
+    this.servicesService.getServiceListListener().subscribe((response) => {
+      this.serviceList = response;
+    });
+    this.serviceList = this.servicesService.getServiceList();
   }
 }
