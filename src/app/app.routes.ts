@@ -8,7 +8,7 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 export const routes: Routes = [
     {path:'' , component:HomeComponent},
     {path:'about-us' , component:AboutUsComponent},
-    {path:'service' , component:ServiceComponent},
-    {path:'service-details' , component:ServiceDetailsComponent},
+    {path:'services' , component:ServiceComponent},
+    {path:'service-details/:id' , component:ServiceDetailsComponent},
     {path:'how-it-works' , component:HowItWorksComponent}
 ];
