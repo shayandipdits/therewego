@@ -1,8 +1,10 @@
-import { CommonModule } from '@angular/common';
+import {CommonModule, NgForOf, NgIf} from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import {CityService} from "../services/city.service";
+import {environment} from "../../environments/environment";
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -11,6 +13,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
+  public FILE_URL = environment.FILE_URL;
   starRating = 4;
   customOptions: any = {
     loop: true,
@@ -38,5 +41,13 @@ export class HomeComponent {
       }
     },
     nav: true
+  }
+
+  cityList: any[] = [];
+  constructor(private cityService: CityService) {
+    this.cityService.getCityListListener().subscribe((response) => {
+      this.cityList = response;
+    });
+    this.cityList = this.cityService.getCityList();
   }
 }
