@@ -15,11 +15,15 @@ export class AppComponent {
   title = 'TogetherVGo';
   // @ts-ignore
   typeSelected: 'ball-fussion';
+  adminHeading = false;
   constructor(
     private readonly router: Router,private spinnerService: NgxSpinnerService
   ) {
     this.router.events.subscribe((e) => {
-      this.spinnerService.show().then();
+      console.log(this.router.url);
+      if(this.router.url == '/login'){
+        this.adminHeading = true;
+      }
       if (e instanceof NavigationEnd) {
         window.scrollTo(0, 0);
       }
