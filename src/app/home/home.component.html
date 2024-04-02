@@ -166,29 +166,7 @@
                                       {{item.short_description}}
                                     </p>
                                     <button class="rmebtnrebtn_design">
-                                        <a [routerLink]="['/service-details']" class="lnk_texts">
-                                            Read More
-                                            <i class="fa-solid fa-arrow-right-long grmicon_design"></i>
-                                        </a>
-                                    </button>
-                                </div>
-                            </div>
-                          </ng-template>  
-                          <ng-template carouselSlide>
-                            <div class="srvcbox_outsection">
-                                <div class="srvcbox_outsection1">
-                                    <img src="assets/images/service-2.jpg" class="srvc_imgdesign">
-                                    <div class="circle_srvcstriucture">
-                                        <img src="assets/images/frontal-taxi-cab.png" class="srvcicon_design">
-                                    </div>
-                                    <h1 class="oboking_icondesign">City Transport</h1>
-                                    <p class="obookng_textdesign">
-                                        There are many variations of passages orem psum available 
-                                        but the majority have suffered alteration in some form by 
-                                        injected.
-                                    </p>
-                                    <button class="rmebtnrebtn_design">
-                                        <a [routerLink]="['/service-details']" class="lnk_texts">
+                                        <a [routerLink]="['/service-details/',item.id]" class="lnk_texts">
                                             Read More
                                             <i class="fa-solid fa-arrow-right-long grmicon_design"></i>
                                         </a>
@@ -196,193 +174,6 @@
                                 </div>
                             </div>
                           </ng-template>
-                          <ng-template carouselSlide>
-                            <div class="srvcbox_outsection">
-                                <div class="srvcbox_outsection1">
-                                    <img src="assets/images/05.jpg" class="srvc_imgdesign">
-                                    <div class="circle_srvcstriucture">
-                                        <img src="assets/images/taxi.png" class="srvcicon_design">
-                                    </div>
-                                    <h1 class="oboking_icondesign">Regular Transport</h1>
-                                    <p class="obookng_textdesign">
-                                        There are many variations of passages orem psum available 
-                                        but the majority have suffered alteration in some form by 
-                                        injected.
-                                    </p>
-                                    <button class="rmebtnrebtn_design">
-                                        <a [routerLink]="['/service-details']" class="lnk_texts">
-                                            Read More
-                                            <i class="fa-solid fa-arrow-right-long grmicon_design"></i>
-                                        </a>
-                                    </button>
-                                </div>
-                            </div>
-                          </ng-template>
-                          <ng-template carouselSlide>
-                            <div class="srvcbox_outsection">
-                                <div class="srvcbox_outsection1">
-                                    <img src="assets/images/04.jpg" class="srvc_imgdesign">
-                                    <div class="circle_srvcstriucture">
-                                        <img src="assets/images/taxi-cab.png" class="srvcicon_design">
-                                    </div>
-                                    <h1 class="oboking_icondesign">Business Transport</h1>
-                                    <p class="obookng_textdesign">
-                                        There are many variations of passages orem psum available 
-                                        but the majority have suffered alteration in some form by 
-                                        injected.
-                                    </p>
-                                    <button class="rmebtnrebtn_design">
-                                        <a [routerLink]="['/service-details']" class="lnk_texts">
-                                            Read More
-                                            <i class="fa-solid fa-arrow-right-long grmicon_design"></i>
-                                        </a>
-                                    </button>
-                                </div>
-                            </div>
-                          </ng-template>
-                          <ng-template carouselSlide>
-                            <div class="srvcbox_outsection">
-                                <div class="srvcbox_outsection1">
-                                    <img src="assets/images/service-1.jpg" class="srvc_imgdesign">
-                                    <div class="circle_srvcstriucture">
-                                        <img src="assets/images/taxi-app.png" class="srvcicon_design">
-                                    </div>
-                                    <h1 class="oboking_icondesign">Online Booking</h1>
-                                    <p class="obookng_textdesign">
-                                        There are many variations of passages orem psum available 
-                                        but the majority have suffered alteration in some form by 
-                                        injected.
-                                    </p>
-                                    <button class="rmebtnrebtn_design">
-                                        <a [routerLink]="['/service-details']" class="lnk_texts">
-                                            Read More
-                                            <i class="fa-solid fa-arrow-right-long grmicon_design"></i>
-                                        </a>
-                                    </button>
-                                </div>
-                            </div>
-                          </ng-template>  
-                          <ng-template carouselSlide>
-                            <div class="srvcbox_outsection">
-                                <div class="srvcbox_outsection1">
-                                    <img src="assets/images/service-2.jpg" class="srvc_imgdesign">
-                                    <div class="circle_srvcstriucture">
-                                        <img src="assets/images/frontal-taxi-cab.png" class="srvcicon_design">
-                                    </div>
-                                    <h1 class="oboking_icondesign">City Transport</h1>
-                                    <p class="obookng_textdesign">
-                                        There are many variations of passages orem psum available 
-                                        but the majority have suffered alteration in some form by 
-                                        injected.
-                                    </p>
-                               
-                                    <!-- <button class="rmebtnrebtn_design" [routerLink]="['/service-details/',item.id]">
-                                        Read More
-                                        <i class="fa-solid fa-arrow-right-long grmicon_design"></i>
-                                    </button> -->
-                                </div>
-                            </div>
-                          </ng-template>
-<!--                          <ng-template carouselSlide>-->
-<!--                            <div class="srvcbox_outsection">-->
-<!--                                <div class="srvcbox_outsection1">-->
-<!--                                    <img src="assets/images/service-2.jpg" class="srvc_imgdesign">-->
-<!--                                    <div class="circle_srvcstriucture">-->
-<!--                                        <img src="assets/images/frontal-taxi-cab.png" class="srvcicon_design">-->
-<!--                                    </div>-->
-<!--                                    <h1 class="oboking_icondesign">City Transport</h1>-->
-<!--                                    <p class="obookng_textdesign">-->
-<!--                                        There are many variations of passages orem psum available-->
-<!--                                        but the majority have suffered alteration in some form by-->
-<!--                                        injected.-->
-<!--                                    </p>-->
-<!--                                    <button class="rmebtnrebtn_design">-->
-<!--                                        Read More-->
-<!--                                        <i class="fa-solid fa-arrow-right-long grmicon_design"></i>-->
-<!--                                    </button>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                          </ng-template>-->
-<!--                          <ng-template carouselSlide>-->
-<!--                            <div class="srvcbox_outsection">-->
-<!--                                <div class="srvcbox_outsection1">-->
-<!--                                    <img src="assets/images/05.jpg" class="srvc_imgdesign">-->
-<!--                                    <div class="circle_srvcstriucture">-->
-<!--                                        <img src="assets/images/taxi.png" class="srvcicon_design">-->
-<!--                                    </div>-->
-<!--                                    <h1 class="oboking_icondesign">Regular Transport</h1>-->
-<!--                                    <p class="obookng_textdesign">-->
-<!--                                        There are many variations of passages orem psum available-->
-<!--                                        but the majority have suffered alteration in some form by-->
-<!--                                        injected.-->
-<!--                                    </p>-->
-<!--                                    <button class="rmebtnrebtn_design">-->
-<!--                                        Read More-->
-<!--                                        <i class="fa-solid fa-arrow-right-long grmicon_design"></i>-->
-<!--                                    </button>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                          </ng-template>-->
-<!--                          <ng-template carouselSlide>-->
-<!--                            <div class="srvcbox_outsection">-->
-<!--                                <div class="srvcbox_outsection1">-->
-<!--                                    <img src="assets/images/04.jpg" class="srvc_imgdesign">-->
-<!--                                    <div class="circle_srvcstriucture">-->
-<!--                                        <img src="assets/images/taxi-cab.png" class="srvcicon_design">-->
-<!--                                    </div>-->
-<!--                                    <h1 class="oboking_icondesign">Business Transport</h1>-->
-<!--                                    <p class="obookng_textdesign">-->
-<!--                                        There are many variations of passages orem psum available-->
-<!--                                        but the majority have suffered alteration in some form by-->
-<!--                                        injected.-->
-<!--                                    </p>-->
-<!--                                    <button class="rmebtnrebtn_design">-->
-<!--                                        Read More-->
-<!--                                        <i class="fa-solid fa-arrow-right-long grmicon_design"></i>-->
-<!--                                    </button>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                          </ng-template>-->
-<!--                          <ng-template carouselSlide>-->
-<!--                            <div class="srvcbox_outsection">-->
-<!--                                <div class="srvcbox_outsection1">-->
-<!--                                    <img src="assets/images/service-1.jpg" class="srvc_imgdesign">-->
-<!--                                    <div class="circle_srvcstriucture">-->
-<!--                                        <img src="assets/images/taxi-app.png" class="srvcicon_design">-->
-<!--                                    </div>-->
-<!--                                    <h1 class="oboking_icondesign">Online Booking</h1>-->
-<!--                                    <p class="obookng_textdesign">-->
-<!--                                        There are many variations of passages orem psum available-->
-<!--                                        but the majority have suffered alteration in some form by-->
-<!--                                        injected.-->
-<!--                                    </p>-->
-<!--                                    <button class="rmebtnrebtn_design">-->
-<!--                                        Read More-->
-<!--                                        <i class="fa-solid fa-arrow-right-long grmicon_design"></i>-->
-<!--                                    </button>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                          </ng-template>-->
-<!--                          <ng-template carouselSlide>-->
-<!--                            <div class="srvcbox_outsection">-->
-<!--                                <div class="srvcbox_outsection1">-->
-<!--                                    <img src="assets/images/service-2.jpg" class="srvc_imgdesign">-->
-<!--                                    <div class="circle_srvcstriucture">-->
-<!--                                        <img src="assets/images/frontal-taxi-cab.png" class="srvcicon_design">-->
-<!--                                    </div>-->
-<!--                                    <h1 class="oboking_icondesign">City Transport</h1>-->
-<!--                                    <p class="obookng_textdesign">-->
-<!--                                        There are many variations of passages orem psum available-->
-<!--                                        but the majority have suffered alteration in some form by-->
-<!--                                        injected.-->
-<!--                                    </p>-->
-<!--                                    <button class="rmebtnrebtn_design">-->
-<!--                                        Read More-->
-<!--                                        <i class="fa-solid fa-arrow-right-long grmicon_design"></i>-->
-<!--                                    </button>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                          </ng-template>-->
                         </owl-carousel-o>
                         <div class="more_serviceoutarea">
                             <button class="msbtn_design">
@@ -394,7 +185,6 @@
                                   </svg>
                                 </div>
                                </button>
-                            <!-- </a> -->
                         </div>
                     </div>
                 </div>
@@ -513,87 +303,21 @@
                             </div>
                         </div>
                     </div>
-<!--                    <div class="col-lg-4">-->
-<!--                        <div class="scity_outarea">-->
-<!--                            <div class="scity_outarea1">-->
-<!--                              <img src="assets/images/guelph.jpg" class="ctsimgx_design">-->
-<!--                              <div class="jblack_bcnkgrndarea">-->
-<!--                                  <h1 class="kwalotext_design">-->
-<!--                                    Guelph-->
-<!--                                  </h1>-->
-<!--                              </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-4">-->
-<!--                        <div class="scity_outarea">-->
-<!--                            <div class="scity_outarea1">-->
-<!--                              <img src="assets/images/sudbury.jpg" class="ctsimgx_design">-->
-<!--                              <div class="jblack_bcnkgrndarea">-->
-<!--                                  <h1 class="kwalotext_design">-->
-<!--                                    Sudbury, ON-->
-<!--                                  </h1>-->
-<!--                              </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-4">-->
-<!--                        <div class="scity_outarea">-->
-<!--                            <div class="scity_outarea1">-->
-<!--                              <img src="assets/images/imageslondon1.jpg" class="ctsimgx_design">-->
-<!--                              <div class="jblack_bcnkgrndarea">-->
-<!--                                  <h1 class="kwalotext_design">-->
-<!--                                    London, ON-->
-<!--                                  </h1>-->
-<!--                              </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-4">-->
-<!--                        <div class="scity_outarea">-->
-<!--                            <div class="scity_outarea1">-->
-<!--                              <img src="assets/images/1-Kingston-City-Hall-1024x685.jpg" class="ctsimgx_design">-->
-<!--                              <div class="jblack_bcnkgrndarea">-->
-<!--                                  <h1 class="kwalotext_design">-->
-<!--                                    Kingston, ON (Coming Soon)-->
-<!--                                  </h1>-->
-<!--                              </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-4">-->
-<!--                        <div class="scity_outarea">-->
-<!--                            <div class="scity_outarea1">-->
-<!--                              <img src="assets/images/Windsor-ON.jpg" class="ctsimgx_design">-->
-<!--                              <div class="jblack_bcnkgrndarea">-->
-<!--                                  <h1 class="kwalotext_design">-->
-<!--                                    Windsor, ON (Coming Soon)-->
-<!--                                  </h1>-->
-<!--                              </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-                    <div class="more_serviceoutarea">
-                        <a [routerLink]="['/cities']" class="jbtna_txtdesign">
-                        <button class="msbtn_design">
-                            <span class="text">
-<<<<<<< HEAD
-                                  More Cities
-=======
-                                <a>
-                                  More Cities
-                                </a>
->>>>>>> d2d7f8b6399e3dd59b263f829b73f18d78adf00c
-                            </span>
-                            <div class="overlay">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
-                                <path d="M5 12h14" />
-                                <path d="m12 5 7 7-7 7" />
-                              </svg>
-                            </div>
-                        </button>
-                        </a>
-                    </div>
+                  <div class="more_serviceoutarea">
+                    <a routerLink="/cities" class="jbtna_txtdesign">
+                      <button class="msbtn_design">
+                                  <span class="text">
+                                        More Cities
+                                  </span>
+                        <div class="overlay">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                            <path d="M5 12h14" />
+                            <path d="m12 5 7 7-7 7" />
+                          </svg>
+                        </div>
+                      </button>
+                    </a>
+                  </div>
                 </div>
             </div>
         </div>
