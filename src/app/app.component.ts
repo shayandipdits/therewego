@@ -1,24 +1,28 @@
 import { Component } from '@angular/core';
-import {NavigationEnd, Router, RouterOutlet} from '@angular/router';
+import {NavigationEnd, NavigationStart, Router, RouterOutlet} from '@angular/router';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import {NgxSpinnerModule, NgxSpinnerService} from "ngx-spinner";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,HeaderComponent,FooterComponent],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent, NgxSpinnerModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'TogetherVGo';
-  // constructor(
-  //   private readonly router: Router
-  // ) {
-  //   this.router.events.subscribe((e) => {
-  //     if (e instanceof NavigationEnd) {
-  //       window.scrollTo(0, 0)
-  //     }
-  //   });
-  // }
+  // @ts-ignore
+  typeSelected: 'ball-fussion';
+  constructor(
+    private readonly router: Router,private spinnerService: NgxSpinnerService
+  ) {
+    this.router.events.subscribe((e) => {
+      this.spinnerService.show().then();
+      if (e instanceof NavigationEnd) {
+        window.scrollTo(0, 0);
+      }
+    });
+  }
 }
