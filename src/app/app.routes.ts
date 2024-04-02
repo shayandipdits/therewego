@@ -15,4 +15,7 @@ export const routes: Routes = [
     {path:'how-it-works' , component:HowItWorksComponent},
     {path:'contact-us' , component:ContactUsComponent},
     {path:'cities' , component:CitiesComponent}
+    {path:'services' , component:ServiceComponent},
+    {path:'service-details/:id' , component:ServiceDetailsComponent},
+    {path:'how-it-works' , component:HowItWorksComponent}
 ];
