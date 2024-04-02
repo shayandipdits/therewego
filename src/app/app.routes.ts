@@ -8,6 +8,7 @@ import { ServiceDetailsComponent } from './service-details/service-details.compo
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CitiesComponent } from './cities/cities.component';
+import { FaqsComponent } from './faqs/faqs.component';
 
 
 export const routes: Routes = [
@@ -19,4 +20,5 @@ export const routes: Routes = [
     {path:'services' , component:ServiceComponent},
     {path:'service-details/:id' , component:ServiceDetailsComponent},
     {path:'how-it-works' , component:HowItWorksComponent},
+    {path:'faqs' , component:FaqsComponent}
 ];

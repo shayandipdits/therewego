@@ -1,0 +1,190 @@
+.subbanner_outarea
+{
+    border: none;
+    padding: 0px;
+    position: relative;
+    background-image: url(http://localhost:4200/assets/images/breadcum-6.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.subbanner_outarea::before
+{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.43);
+    opacity: 0.4;
+}
+.middle_textarea
+{
+    margin: 220px 0px 0px 0px;
+    position: relative;
+}
+.breadcum_txthdng
+{
+    margin: 0px;
+    color: #FFF;
+    padding: 0px 0px 10px 110px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.breadcum_slinkarea
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.breadcum_slinkarea li
+{
+    list-style: none;
+    color: #FFF;
+    padding: 12px 0px 0px 110px;
+    font-size: 17px;
+}
+.jbrdcum_panarea
+{
+    border: none;
+}
+.kicon_design
+{
+    color: #FFF;
+    font-size: 15px;
+    padding: 0px 15px 0px 0px;
+}
+.kname_textdesign
+{
+    color: #FFF;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 15px 0px 0px;
+    font-size: 17px;
+}
+.faqtmain_outsection
+{
+    margin: 70px 0px 0px 0px;
+}
+.faqtext_design
+{
+    color: #000;
+    font-size: 25px;
+    margin: 0px;
+    font-weight: 700;
+    text-align: center;
+}
+.fatsit_outsection
+{
+    margin: 50px 0px 0px 0px;
+}
+.fscndist_outsection
+{
+    margin: 50px 0px 0px 0px;
+}
+.faw_ulistarea
+{
+  margin: 0px;
+  padding: 0px;
+}
+.faw_ulistarea li
+{
+    font-size: 14px;
+    color: #444;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 0px 10px 0px;
+}
+.faw_ulistarea li i
+{
+    font-size: 14px;
+    color: #444;
+    padding: 0px 7px 0px 0px;
+}
+.accordion {
+    display: flex;
+    flex-direction: column;
+    font-family: "Sora", sans-serif;
+    max-width: 991px;
+    min-width: 320px;
+    margin: 50px auto;
+    padding: 0 50px;
+}
+.accordion h1 {
+    text-align: center;
+    color: #ff4f02;
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.accordion-item {
+    margin-top: 16px;
+    border: 1px solid #fcfcfc;
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+.accordion-item .accordion-item-title {
+    position: relative;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    align-items: center;
+    color: #000;
+}
+.accordion-item .accordion-item-desc {
+    display: none;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #444;
+    border-top: 1px dashed #ddd;
+    padding: 10px 20px 10px;
+    box-sizing: border-box;
+}
+.accordion-item input[type="checkbox"] {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+.accordion-item input[type="checkbox"]:checked ~ .accordion-item-desc {
+    display: block;
+}
+.accordion-item
+    input[type="checkbox"]:checked
+    ~ .accordion-item-title
+    .icon:after {
+    content: "-";
+    font-size: 20px;
+}
+.accordion-item input[type="checkbox"] ~ .accordion-item-title .icon:after {
+    content: "+";
+    font-size: 20px;
+}
+.accordion-item:first-child {
+    margin-top: 0;
+}
+.accordion-item .icon {
+    margin-left: 14px;
+}
+.gfaqimg_design
+{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 767px) {
+    .accordion {
+        padding: 0 16px;
+    }
+    .accordion h1 {
+        font-size: 22px;
+    }
+}
