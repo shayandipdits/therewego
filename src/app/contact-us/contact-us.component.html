@@ -32,13 +32,13 @@
                         <h1 class="sdmu_textdesign">
                             Send Message Us
                         </h1>
-                      <form [formGroup]="courseForm">
+                      <form [formGroup]="contactUsForm">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="lform_fieldoutdesign">
                                     <mat-form-field appearance="outline" class="lmat_fldareadesign">
                                         <mat-label>Your Name</mat-label>
-                                        <input matInput placeholder="Placeholder">
+                                        <input matInput formControlName="name" placeholder="Your Name">
                                     </mat-form-field>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                                 <div class="lform_fieldoutdesign">
                                     <mat-form-field appearance="outline" class="lmat_fldareadesign">
                                         <mat-label>Your Email Id</mat-label>
-                                        <input matInput placeholder="Placeholder">
+                                        <input matInput formControlName="email" placeholder="Email">
                                     </mat-form-field>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@
                                 <div class="lform_fieldoutdesign">
                                     <mat-form-field appearance="outline" class="lmat_fldareadesign">
                                         <mat-label>Phone</mat-label>
-                                        <input matInput placeholder="Placeholder">
+                                        <input matInput formControlName="phone" placeholder="Phone">
                                     </mat-form-field>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@
                                 <div class="lform_fieldoutdesign">
                                     <mat-form-field appearance="outline" class="lmat_fldareadesign">
                                         <mat-label>Subject</mat-label>
-                                        <input matInput placeholder="Placeholder">
+                                        <input matInput formControlName="subject" placeholder="Subject">
                                     </mat-form-field>
                                 </div>
                             </div>
@@ -70,12 +70,12 @@
                                 <div class="lform_fieldoutdesign">
                                     <mat-form-field appearance="outline" class="lmat_fldareadesign">
                                         <mat-label>Your Message...</mat-label>
-                                        <input matInput placeholder="Placeholder" class="jhght_section">
+                                        <input matInput formControlName="message" placeholder="Message" class="jhght_section">
                                     </mat-form-field>
                                 </div>
                             </div>
                             <div class="more_serviceoutarea">
-                                <button class="msbtn_design">
+                                <button class="msbtn_design" (click)="saveContactUs()" (keyup.enter)="saveContactUs()">
                                     <span class="text">
                                         Submit
                                     </span>
