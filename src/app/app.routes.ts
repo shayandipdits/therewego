@@ -10,12 +10,10 @@ import { CitiesComponent } from './cities/cities.component';
 export const routes: Routes = [
     {path:'' , component:HomeComponent},
     {path:'about-us' , component:AboutUsComponent},
-    {path:'service' , component:ServiceComponent},
-    {path:'service-details' , component:ServiceDetailsComponent},
     {path:'how-it-works' , component:HowItWorksComponent},
     {path:'contact-us' , component:ContactUsComponent},
-    {path:'cities' , component:CitiesComponent}
+    {path:'cities' , component:CitiesComponent},
     {path:'services' , component:ServiceComponent},
     {path:'service-details/:id' , component:ServiceDetailsComponent},
-    {path:'how-it-works' , component:HowItWorksComponent}
+    {path:'how-it-works' , component:HowItWorksComponent},
 ];
