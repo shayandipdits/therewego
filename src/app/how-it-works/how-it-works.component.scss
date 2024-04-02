@@ -237,9 +237,9 @@
   #timeline .demo-card .head .number-box {
     display: inline;
     float: left;
-    margin: 15px;
+    margin: 7px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 35px;
     font-weight: 400;
     background: #a7e92f;
@@ -251,12 +251,12 @@
     font-weight: inherit;
     letter-spacing: 1px;
     margin: 0;
-    padding-bottom: 6px;
+    padding-bottom: 0px;
     line-height: 1rem;
   }
   @media (min-width: 480px) {
     #timeline .demo-card .head h2 {
-        font-size: 15px;
+        font-size: 13px;
         line-height: normal;
     }
   }
@@ -308,18 +308,18 @@
     background-color: #242425;
   }
   #timeline .demo-card--step3 .head::after {
-    border-color: #242425;
+    border-color: #FFF;
   }
   #timeline .demo-card--step4 {
-    background-color: #4d92eb;
+    background-color: #242425;
   }
   #timeline .demo-card--step4 .head::after {
-    border-color: #4d92eb;
+    border-color: #242425;
   }
   #timeline .demo-card--step5 {
-    background-color: #46b8e9;
+    background-color: #242425;
   }
   #timeline .demo-card--step5 .head::after {
-    border-color: #46b8e9;
+    border-color: #242425;
   }
   
