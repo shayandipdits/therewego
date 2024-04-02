@@ -40,6 +40,7 @@
                                         <mat-label>Your Name</mat-label>
                                         <input matInput formControlName="name" placeholder="Your Name">
                                     </mat-form-field>
+                                  <div *ngIf="contactUsForm.controls['name'].errors?.['required'] && contactUsForm.controls['name'].touched " class="text text-danger mt-1">Name required</div>
                                 </div>
                             </div>
                             <div class="col-lg-6">

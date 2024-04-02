@@ -84,7 +84,7 @@
 }
 .lform_fieldoutdesign
 {
-    margin: 0px 0px 15px 0px;
+    margin: 15px 0px 0px 0px;
 }
 .lmat_fldareadesign
 {
@@ -125,7 +125,7 @@
     outline: none;
     margin-left: auto;
     margin-right: auto;
-  
+
     & > span.text {
       color: #121212;
       width: 100%;
@@ -135,7 +135,7 @@
       z-index: 2;
       transition: all 200ms ease;
     }
-  
+
     & > div.overlay {
       color: #ededed;
       width: 48px;
@@ -151,7 +151,7 @@
       z-index: 1;
       transition: all 400ms ease;
     }
-  
+
     &:is(:hover, :focus) {
       & > span.text {
         color: #ededed;
