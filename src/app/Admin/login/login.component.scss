@@ -1,0 +1,302 @@
+.outside_arealogin 
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user_loginbackarea
+{
+    padding: 0px;
+}
+.outside_arealogin video 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.blck_areabacks
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2705882353);
+    position: absolute;
+    top: 0px;
+}
+.loginbix_outaerea
+{
+    position: relative;
+    z-index: 1;
+    background-color: rgb(255 255 255 / 79%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+    text-align: center;
+}
+.sdlogo_design
+{
+    width: 180px;
+    padding: 30px 0px 0px 0px;
+}
+.ltra_textdesign
+{
+    text-align: center;
+    color: #ff4f02;
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px 0px 10px 0px;
+}
+.separator
+{
+    position: relative;
+    display: inline-block;
+}
+.separator::before
+{
+    content: '';
+    display: block;
+    margin: auto;
+    left: 50%;
+    height: 1px;
+    width: 50px;
+    bottom: -15px;
+    background: #ff4f02;
+    transition: width .8s ease, background-color .8s ease;
+    -webkit-transition: width .8s ease, background-color .8s ease;
+    -o-transition: width .8s ease, background-color .8s ease;
+    -ms-transition: width .8s ease, background-color .8s ease;
+    -moz-transition: width .8s ease, background-color .8s ease;
+    margin-bottom: 6px;
+}
+.separator::after
+{
+    content: "";
+    width: 100px;
+    display: block;
+    margin: auto;
+    height: 1px;
+    background: #ff4f02;
+    bottom: 0px;
+    left: 50%;
+    transition: width .8s ease, background-color .8s ease;
+    -webkit-transition: width .8s ease, background-color .8s ease;
+    -o-transition: width .8s ease, background-color .8s ease;
+    -ms-transition: width .8s ease, background-color .8s ease;
+    -moz-transition: width .8s ease, background-color .8s ease;
+}
+.input-field 
+{
+    position: relative;
+    width: 100%;
+    height: 110px;
+    line-height: 40px;
+}
+.animate_ltextdesign 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #464343;
+    transition: 0.2s all;
+    cursor: text;
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+}
+.animate_fieldtext 
+{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.3rem 0;
+    border-bottom: 2px solid #b7b1b1;
+    background: transparent;
+    box-shadow: none;
+    color: #111;
+    cursor: pointer;
+}
+.animate_fieldtext:invalid 
+{
+    outline: 0;
+}
+.animate_fieldtext:focus,
+.animate_fieldtext:valid 
+{
+    border-color: #5cad2f;
+}
+.animate_fieldtext:focus ~ label,
+.animate_fieldtext:valid ~ label 
+{
+    font-size: 14px;
+    top: -24px;
+    color: #5cad2f;
+}
+.rmt_section
+{
+    margin: 30px 0px 0px 0px;
+    padding: 0px 30px 0px 30px;
+}
+.rpswrd_area
+{
+  border: none;
+}
+.remtext_fdesign
+{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.chckbox_kbdesign
+{
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px 0px 0px;
+}
+.foswrd_textdesign
+{
+    color: #FFF;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.lform_areabtn
+{
+    margin: 40px 0px 40px 0px;
+}
+.buttons 
+{
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 30px;
+    height: 90px;
+}
+.blob-btn 
+{
+    z-index: 1;
+    position: relative;
+    padding: 20px 65px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff4f02;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: color 0.5s;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+.blob-btn:before 
+{
+    content: "";
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ff4f02;
+    border-radius: 30px;
+}
+.blob-btn:after 
+{
+    content: "";
+    z-index: -2;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s 0.2s;
+    border-radius: 30px;
+}
+.blob-btn:hover 
+{
+    color: #FFFFFF;
+    border-radius: 30px;
+}
+.blob-btn:hover:after 
+{
+    transition: all 0.3s;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+}
+.blob-btn__inner 
+{
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background: #ffffff;
+}
+.blob-btn__blobs 
+{
+    position: relative;
+    display: block;
+    height: 100%;
+    filter: url("#goo");
+}
+.blob-btn__blob 
+{
+    position: absolute;
+    top: 2px;
+    width: 25%;
+    height: 100%;
+    background: #ff4f02;
+    border-radius: 100%;
+    transform: translate3d(0, 150%, 0) scale(1.7);
+    transition: transform 0.45s;
+}
+@supports (filter: url("#goo")) 
+{
+    .blob-btn__blob 
+    {
+      transform: translate3d(0, 150%, 0) scale(1.4);
+    }
+}
+  .blob-btn__blob:nth-child(1) 
+{
+    left: 0%;
+    transition-delay: 0s;
+}
+.blob-btn__blob:nth-child(2) 
+{
+    left: 30%;
+    transition-delay: 0.08s;
+}
+.blob-btn__blob:nth-child(3) 
+{
+    left: 60%;
+    transition-delay: 0.16s;
+}
+.blob-btn__blob:nth-child(4) 
+{
+    left: 90%;
+    transition-delay: 0.24s;
+}
+.blob-btn:hover .blob-btn__blob 
+{
+    transform: translateZ(0) scale(1.7);
+}
+@supports (filter: url("#goo")) 
+{
+    .blob-btn:hover .blob-btn__blob 
+    {
+      transform: translateZ(0) scale(1.4);
+    }
+}
