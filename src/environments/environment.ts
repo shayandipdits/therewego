@@ -1,5 +1,5 @@
 export const environment = {
   production: false,
-  BASE_API_URL: 'http://127.0.0.1:8000/api',
-  FILE_URL: 'http://127.0.0.1:/together_v_go_api/public/',
+  BASE_API_URL: 'http://localhost/thereVGo_api/api',
+  FILE_URL: 'http://localhost/thereVGo_api/public/',
 };

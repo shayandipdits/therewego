@@ -31,112 +31,16 @@
                     Cities
                 </h1>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" *ngFor="let item of cityList">
                         <div class="scity_outarea">
                             <div class="scity_outarea1">
-                              <img src="assets/images/cities-1.jpg" class="ctsimgx_design">
+                              <img src='{{FILE_URL + "storage/" + item.image }}' onerror="this.src='assets/images/error.jpg'" loading="lazy" class="ctsimgx_design">
                               <div class="jblack_bcnkgrndarea">
                                   <h1 class="kwalotext_design">
                                     Toronto
                                   </h1>
                               </div>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="scity_outarea">
-                            <div class="scity_outarea1">
-                              <img src="assets/images/cities-2.jpg" class="ctsimgx_design">
-                              <div class="jblack_bcnkgrndarea">
-                                  <h1 class="kwalotext_design">
-                                    Ottawa
-                                  </h1>
-                              </div>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="scity_outarea">
-                            <div class="scity_outarea1">
-                              <img src="assets/images/cities-3.jpg" class="ctsimgx_design">
-                              <div class="jblack_bcnkgrndarea">
-                                  <h1 class="kwalotext_design">
-                                    Mississauga
-                                  </h1>
-                              </div>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="scity_outarea">
-                            <div class="scity_outarea1">
-                              <img src="assets/images/cities-4.jpg" class="ctsimgx_design">
-                              <div class="jblack_bcnkgrndarea">
-                                  <h1 class="kwalotext_design">
-                                    Brampton
-                                  </h1>
-                              </div>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="scity_outarea">
-                            <div class="scity_outarea1">
-                              <img src="assets/images/cities-5.jpg" class="ctsimgx_design">
-                              <div class="jblack_bcnkgrndarea">
-                                  <h1 class="kwalotext_design">
-                                    Hamilton
-                                  </h1>
-                              </div>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="scity_outarea">
-                            <div class="scity_outarea1">
-                              <img src="assets/images/cities-6.jpg" class="ctsimgx_design">
-                              <div class="jblack_bcnkgrndarea">
-                                  <h1 class="kwalotext_design">
-                                    London
-                                  </h1>
-                              </div>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="scity_outarea">
-                            <div class="scity_outarea1">
-                              <img src="assets/images/cities-7.jpg" class="ctsimgx_design">
-                              <div class="jblack_bcnkgrndarea">
-                                  <h1 class="kwalotext_design">
-                                    Markham
-                                  </h1>
-                              </div>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="scity_outarea">
-                            <div class="scity_outarea1">
-                              <img src="assets/images/cities-8.jpg" class="ctsimgx_design">
-                              <div class="jblack_bcnkgrndarea">
-                                  <h1 class="kwalotext_design">
-                                    Vaughan
-                                  </h1>
-                              </div>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="scity_outarea">
-                            <div class="scity_outarea1">
-                              <img src="assets/images/cities-9.jpg" class="ctsimgx_design">
-                              <div class="jblack_bcnkgrndarea">
-                                  <h1 class="kwalotext_design">
-                                    Kitchener
-                                  </h1>
-                              </div>
-                            </div>  
+                            </div>
                         </div>
                     </div>
                 </div>

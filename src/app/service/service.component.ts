@@ -18,6 +18,7 @@ export class ServiceComponent {
   constructor(private servicesService:ServicesService) {
     this.servicesService.getServiceListListener().subscribe((response) => {
       this.serviceList = response;
+      console.log(this.FILE_URL);
     });
     this.serviceList = this.servicesService.getServiceList();
   }
