@@ -2,7 +2,7 @@
 {
     padding: 0px;
     position: relative;
-    background-image: url(http://localhost:4200/assets/images/slider-background.jpg);
+    background-image: url('assets/images/slider-background.jpg');
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,7 +82,7 @@
     -webkit-animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
     animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
   }
-  
+
   @-webkit-keyframes pulse-ring {
     0% {
       transform: scale(0.33);
@@ -91,7 +91,7 @@
       opacity: 0;
     }
   }
-  
+
   @keyframes pulse-ring {
     0% {
       transform: scale(0.33);
@@ -155,7 +155,7 @@
 {
     border: none;
 }
-.hkcvb_areasection1 
+.hkcvb_areasection1
 {
     border: none;
     outline: none;
@@ -166,27 +166,27 @@
     animation: shadow-pulse 1.5s infinite;
     background: #000;
 }
-.lnktext_design 
+.lnktext_design
 {
   text-decoration: none;
 }
-.area_design1 
+.area_design1
 {
     width: 30%;
     float: left;
     text-align: center;
     padding: 8px 0px 0px 0px;
 }
-.googleplybtn_design 
+.googleplybtn_design
 {
     width: 30px;
 }
-.area_design2 
+.area_design2
 {
     width: 68%;
     float: left;
 }
-.lknmcv_btngl2 
+.lknmcv_btngl2
 {
     font-size: 12px;
     color: #FFF;
@@ -195,7 +195,7 @@
     letter-spacing: 0.2px;
     margin: 0px;
 }
-.lknmcv_btngl1 
+.lknmcv_btngl1
 {
     font-size: 17px;
     color: #FFF;
@@ -327,7 +327,7 @@
 {
     margin: 70px 0px 0px 0px;
     padding: 40px 0px 40px 0px;
-    background-image: url('http://localhost:4200/assets/images/service-back.jpg');
+    background-image: url('/assets/images/service-back.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -396,7 +396,7 @@
     outline: none;
     margin-left: auto;
     margin-right: auto;
-  
+
     & > span.text {
       color: #121212;
       width: 100%;
@@ -406,7 +406,7 @@
       z-index: 2;
       transition: all 200ms ease;
     }
-  
+
     & > div.overlay {
       color: #ededed;
       width: 48px;
@@ -422,7 +422,7 @@
       z-index: 1;
       transition: all 400ms ease;
     }
-  
+
     &:is(:hover, :focus) {
       & > span.text {
         color: #ededed;
@@ -433,7 +433,7 @@
       }
     }
   }
-  
+
 // .msbtn_design
 // {
 //     width: 140px;
@@ -564,7 +564,7 @@
 }
 .facilitymain_outarea
 {
-   background-image: url('http://localhost:4200/assets/images/faciliti-backgrounds.jpg');
+   background-image: url('/assets/images/faciliti-backgrounds.jpg');
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -695,7 +695,7 @@
 .htuapp_outsection
 {
     margin: 70px 0px 0px 0px;
-    background-image: url('http://localhost:4200/assets/images/appback.jpg');
+    background-image: url('/assets/images/appback.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -719,13 +719,13 @@
 }
 .huappleft_outsection
 {
-    border: none;    
+    border: none;
 }
 .huappimg_outarea
 {
     border: none;
 }
-.video-play-button 
+.video-play-button
 {
     position: absolute;
     z-index: 10;
@@ -740,7 +740,7 @@
     border-radius: 50%;
     padding: 18px 20px 18px 28px;
   }
-  .video-play-button:before 
+  .video-play-button:before
   {
     content: "";
     position: absolute;
@@ -756,7 +756,7 @@
     -webkit-animation: pulse-border 1500ms ease-out infinite;
     animation: pulse-border 1500ms ease-out infinite;
   }
-  .video-play-button:after 
+  .video-play-button:after
   {
     content: "";
     position: absolute;
@@ -771,11 +771,11 @@
     border-radius: 50%;
     transition: all 200ms;
   }
-  .video-play-button:hover:after 
+  .video-play-button:hover:after
   {
     background-color: #da0528;
   }
-  .video-play-button img 
+  .video-play-button img
   {
     position: relative;
     z-index: 3;
@@ -783,7 +783,7 @@
     width: auto;
     height: auto;
   }
-  .video-play-button span 
+  .video-play-button span
   {
     display: block;
     position: relative;
@@ -794,7 +794,7 @@
     border-top: 22px solid transparent;
     border-bottom: 22px solid transparent;
   }
-  @-webkit-keyframes pulse-border 
+  @-webkit-keyframes pulse-border
   {
     0% {
       transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
@@ -805,7 +805,7 @@
       opacity: 0;
     }
   }
-  @keyframes pulse-border 
+  @keyframes pulse-border
   {
     0% {
       transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
@@ -816,7 +816,7 @@
       opacity: 0;
     }
   }
-  .video-overlay 
+  .video-overlay
   {
     position: fixed;
     z-index: -1;
@@ -828,13 +828,13 @@
     opacity: 0;
     transition: all ease 500ms;
   }
-  .video-overlay.open 
+  .video-overlay.open
   {
     position: fixed;
     z-index: 1000;
     opacity: 1;
   }
-  .video-overlay-close 
+  .video-overlay-close
   {
     position: absolute;
     z-index: 1000;
@@ -848,11 +848,11 @@
     cursor: pointer;
     transition: all 200ms;
   }
-  .video-overlay-close:hover 
+  .video-overlay-close:hover
   {
     color: #fa183d;
   }
-  .video-overlay iframe 
+  .video-overlay iframe
   {
     position: absolute;
     top: 50%;
