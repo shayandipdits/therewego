@@ -323,4 +323,55 @@
   #timeline .demo-card--step5 .head::after {
     border-color: #242425;
   }
-  
+  @media(max-width: 767px)
+{
+    .middle_textarea
+    {
+        margin: 160px 0px 0px 0px;
+    }
+    .breadcum_txthdng
+    {
+        padding: 0px 0px 10px 20px;
+        font-size: 25px;
+    }
+    .breadcum_slinkarea li
+    {
+        padding: 7px 0px 0px 20px;
+    }
+    .subbanner_outarea
+    {
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+        height: 300px;
+    }
+    .cababout_outsection
+    {
+        margin: 40px 0px 0px 0px;
+    }
+    .abtfstimg_design
+    {
+        width: 100%;
+    }
+    .abtscndimg_design
+    {
+        width: 80%;
+        right: 10%;
+    }
+    .outtimeline_outarea
+    {
+      margin: 40px 0px 0px 0px;
+    }
+    .tvaptext_design
+    {
+      font-size: 20px;
+    }
+    #timeline 
+    {
+      padding: 30px 0;
+    }
+    #timeline .demo-card .head h2
+    {
+      font-size: 14px;
+    }
+}

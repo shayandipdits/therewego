@@ -121,7 +121,7 @@
     position: absolute;
     right: 13%;
     background: #ff4f02;
-    top: 44%;
+    top: 38%;
 }
 .srvcicon_design
 {
@@ -134,14 +134,16 @@
 }
 .oboking_icondesign
 {
-    font-size: 23px;
+    font-size: 20px;
     margin: 0px;
-    padding: 20px 0px 0px 0px;
+    padding: 35px 0px 0px 0px;
+    font-weight: 500;
+    line-height: 25px;
 }
 .obookng_textdesign
 {
     text-align: justify;
-    font-size: 15px;
+    font-size: 13px;
     margin: 0px;
     padding: 10px 0px 0px 0px;
     color: #8d8d8d;
@@ -168,4 +170,54 @@
 {
     color: #FFF !important;
     text-decoration: none;
+}
+@media(max-width: 767px)
+{
+    .middle_textarea
+    {
+        margin: 160px 0px 0px 0px;
+    }
+    .breadcum_txthdng
+    {
+        padding: 0px 0px 10px 20px;
+        font-size: 25px;
+    }
+    .breadcum_slinkarea li
+    {
+        padding: 7px 0px 0px 20px;
+    }
+    .subbanner_outarea
+    {
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+        height: 300px;
+    }
+    .service_areaoutsection
+    {
+        margin: 40px 0px 0px 0px;
+        padding: 0px 0px 10px 0px;
+    }
+    .bsfc_textdesign
+    {
+        font-size: 20px;
+    }
+    .srvcy_outsection
+    {
+        margin: 20px 0px 0px 0px;
+    }
+    .srvcbox_outsection
+    {
+       margin: 0px 5px 15px 5px;;
+    }
+    .oboking_icondesign
+    {
+        font-size: 17px;
+        padding: 45px 0px 0px 0px;
+        line-height: 25px;
+    }
+    .circle_srvcstriucture
+    {
+        top: 33%;
+    }
 }

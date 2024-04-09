@@ -482,7 +482,7 @@
     position: absolute;
     right: 13%;
     background: #ff4f02;
-    top: 44%;
+    top: 40%;
 }
 .srvcicon_design
 {
@@ -495,14 +495,16 @@
 }
 .oboking_icondesign
 {
-    font-size: 23px;
+    font-size: 20px;
     margin: 0px;
-    padding: 20px 0px 0px 0px;
+    padding: 35px 0px 0px 0px;
+    font-weight: 500;
+    line-height: 25px;
 }
 .obookng_textdesign
 {
     text-align: justify;
-    font-size: 15px;
+    font-size: 13px;
     margin: 0px;
     padding: 10px 0px 0px 0px;
     color: #8d8d8d;
@@ -1113,4 +1115,140 @@
     font-size: 120px;
     color: #ffb300;
     opacity: .2;
+}
+@media(max-width: 767px)
+{
+    .abtscndimg_design
+    {
+        width: 60%;
+        right: 20%;
+    }
+    .wdntext_design
+    {
+        font-size: 25px;
+    }
+    .abtrght_outsection
+    {
+        margin: 130px 0px 0px 10px;
+    }
+    .cstxt_textdesign
+    {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .cstxt_textdesign1
+    {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .kshldtax_imgdesign
+    {
+        margin-left: inherit;
+    }
+    .bsfc_textdesign
+    {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .aus_textdesign1
+    {
+        padding: 0px 0px 10px 0px;
+    }
+    .cityname_area
+    {
+        margin: 40px 0px 0px 0px;;
+    }
+    .cababout_outsection
+    {
+        margin: 40px 0px 0px 0px;
+    }
+    .oboking_icondesign
+    {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .circle_srvcstriucture
+    {
+        top: 30%;
+    }
+    .htuwap_textdesign
+    {
+        font-size: 24px;
+    }
+    .jtaws_imgdesign
+    {
+        padding: 130px 0px 0px 0px;
+    }
+    .video-play-button
+    {
+        top: 65%;
+        left: 58%;
+    }
+    .ctesx_textdesign
+    {
+        font-size: 20px;
+    }
+    .accordion
+    {
+        padding: 0 0px;
+    }
+    .phttxet_design
+    {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .carpool_bannerarea
+    {
+        background-position: bottom;
+    }
+    .leftmobileapp_area
+    {
+        padding: 140px 0px 0px 0px;
+    }
+    .mobileapp_design
+    {
+        width: 50%;
+    }
+    .rightbanner_area
+    {
+        padding: 10px 0px 10px 0px;
+    }
+    .trghtbanner_textdesign
+    {
+        font-size: 21px;
+        line-height: 25px;
+        width: auto;
+    }
+    .thtbanner_describetext
+    {
+        font-size: 14px;
+        padding: 15px 0px 10px 0px;
+        line-height: 20px;
+        width: auto;
+    }
+    .hkcvb_areasection1
+    {
+        width: 150px;
+    }
+    .googleplybtn_design
+    {
+        width: 22px;
+    }
+    .lknmcv_btngl2
+    {
+        font-size: 11px;
+    }
+    .lknmcv_btngl1
+    {
+        font-size: 13px;
+    }
+    .abtfstimg_design
+    {
+        width: 100%;
+    }
+    .abtscndimg_design
+    {
+        width: 80%;
+        right: 10%;
+    }
 }

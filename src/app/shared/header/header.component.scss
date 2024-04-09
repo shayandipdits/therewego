@@ -4,7 +4,7 @@
    position: absolute;
    z-index: 99;
    width: 100%;
-   top: 2%;
+   top: 3%;
 }
 .navmenu_area .wrapper
 {
@@ -157,7 +157,7 @@
     position: fixed;
     height: 100vh;
     width: 100%;
-    max-width: 350px;
+    max-width: 360px;
     top: 0;
     left: -100%;
     background: #242526;
@@ -286,7 +286,7 @@
 }
 .logo_design
 {
-  width: 130px;
+  width: 170px;
 }
 .topheaderbtn_structure
 {
@@ -338,4 +338,36 @@
 {
     color: #FFF;
     padding: 0px 5px 0px 0px;
+}
+@media(max-width: 767px)
+{
+  .threelab_btndesign
+  {
+    position: absolute;
+    right: 15px;
+    width: 42px;
+    height: 42px;
+    background: #000;
+    border-radius: 5px;
+  }
+  .threelab_btndesign i
+  {
+    color: #FFF;
+  }
+  .site_logoarea
+  {
+    padding: 0px 0px 0px 20px;
+  }
+  .topheaderbtn_structure
+  {
+    position: static;
+  }
+  .closebtn_design
+  {
+    color: #FFF;
+  }
+  .wrapper .nav-links
+  {
+    top: -10px;
+  }
 }
