@@ -3,7 +3,7 @@
     border: none;
     padding: 0px;
     position: relative;
-    background-image: url(http://localhost:4200/assets/images/breadcum-3.jpg);
+    background-image: url(https://i.imgur.com/top7oaI.jpg);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,7 +93,7 @@
       border-top: 15px solid transparent;
       border-bottom: 15px solid transparent;
     }
-  
+
     #timeline .demo-card:nth-child(even) .head::before, #timeline .demo-card:nth-child(odd) .head::before {
       position: absolute;
       content: "";
@@ -108,28 +108,28 @@
   .demo-card:nth-child(1) {
     order: 1;
   }
-  
+
   .demo-card:nth-child(2) {
     order: 4;
   }
-  
+
   .demo-card:nth-child(3) {
     order: 2;
   }
-  
+
   .demo-card:nth-child(4) {
     order: 5;
   }
-  
+
   .demo-card:nth-child(5) {
     order: 3;
   }
-  
+
   .demo-card:nth-child(6) {
     order: 6;
   }
-  
-  
+
+
   #timeline {
     padding: 100px 0;
     // background: #f7f7f7;
@@ -323,4 +323,3 @@
   #timeline .demo-card--step5 .head::after {
     border-color: #242425;
   }
-  
