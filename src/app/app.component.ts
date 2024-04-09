@@ -20,7 +20,6 @@ export class AppComponent {
     private readonly router: Router,private spinnerService: NgxSpinnerService
   ) {
     this.router.events.subscribe((e) => {
-      console.log(this.router.url);
       if(this.router.url == '/login'){
         this.adminHeading = true;
       }
