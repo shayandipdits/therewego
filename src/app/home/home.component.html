@@ -570,123 +570,160 @@
                     <span class="wock_text1">Say's</span>
                 </h1>
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="singlebox_testimnlarea">
-                            <div class="singlebox_testimnlarea1">
-                                 <div class="row">
-                                     <div class="col-4">
-                                         <div class="clnt_imgarea">
-                                            <img src="assets/images/010.jpg" class="clkntimg_design">
-                                         </div>
-                                     </div>
-                                     <div class="col-lg-8">
-                                        <div class="clntnme_textarea">
-                                             <h1 class="clntnme_textdesign">
-                                                Colin Jones
-                                             </h1>
-                                             <img src="assets/images/rating.png" class="gstaricon_Design">
-                                        </div>
-                                     </div>
-                                 </div>
-                                 <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="tstcontent_areaout">
-                                            <p class="phttxet_design">
-                                                Personally have taken RideON several times. Enough
-                                                to know on how to navigate and look out for wait
-                                                times/expected pick ups and drop offs from
-                                                several locations. I admire the hard and
-                                                friendly workers. Only can say positive things!
-                                                I prefer over UBER! I have only been ordering
-                                                TOGETHERBGO since December 2021.
-                                            </p>
-                                            <div class="lqte_scarea">
-                                                <i class="fa-solid fa-quote-right klnc_icontext"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                 </div>
+                  <owl-carousel-o [options]="customOptions">
+                    <ng-template carouselSlide *ngFor="let item of testimonialList">
+                      <div class="singlebox_testimnlarea">
+                        <div class="singlebox_testimnlarea1">
+                          <div class="row">
+                            <div class="col-4">
+                              <div class="clnt_imgarea">
+<!--                                <img src="assets/images/010.jpg" class="clkntimg_design">-->
+                                <img src='{{FILE_URL + "storage/" + item.image}}' class="clkntimg_design">
+                              </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="singlebox_testimnlarea">
-                            <div class="singlebox_testimnlarea1">
-                                 <div class="row">
-                                     <div class="col-4">
-                                         <div class="clnt_imgarea">
-                                            <img src="assets/images/022.jpg" class="clkntimg_design">
-                                         </div>
-                                     </div>
-                                     <div class="col-lg-8">
-                                        <div class="clntnme_textarea">
-                                             <h1 class="clntnme_textdesign">
-                                                Keva
-                                             </h1>
-                                             <img src="assets/images/rating1.png" class="gstaricon_Design">
-                                        </div>
-                                     </div>
-                                 </div>
-                                 <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="tstcontent_areaout">
-                                            <p class="phttxet_design">
-                                                Personally have taken RideON several times. Enough
-                                                to know on how to navigate and look out for wait
-                                                times/expected pick ups and drop offs from
-                                                several locations. I admire the hard and
-                                                friendly workers. Only can say positive things!
-                                                I prefer over UBER! I have only been ordering
-                                                TOGETHERBGO since December 2021.
-                                            </p>
-                                            <div class="lqte_scarea">
-                                                <i class="fa-solid fa-quote-right klnc_icontext"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                 </div>
+                            <div class="col-lg-8">
+                              <div class="clntnme_textarea">
+                                <h1 class="clntnme_textdesign">
+                                  {{item.name}}
+                                </h1>
+<!--                                <img src="assets/images/rating.png" class="gstaricon_Design">-->
+                                <ngb-rating [readonly]="true" [max]=5 [(rate)]="item.star"></ngb-rating>
+                              </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="singlebox_testimnlarea">
-                            <div class="singlebox_testimnlarea1">
-                                 <div class="row">
-                                     <div class="col-4">
-                                         <div class="clnt_imgarea">
-                                            <img src="assets/images/010.jpg" class="clkntimg_design">
-                                         </div>
-                                     </div>
-                                     <div class="col-lg-8">
-                                        <div class="clntnme_textarea">
-                                             <h1 class="clntnme_textdesign">
-                                                Colin Jones
-                                             </h1>
-                                             <img src="assets/images/rating.png" class="gstaricon_Design">
-                                        </div>
-                                     </div>
-                                 </div>
-                                 <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="tstcontent_areaout">
-                                            <p class="phttxet_design">
-                                                Personally have taken RideON several times. Enough
-                                                to know on how to navigate and look out for wait
-                                                times/expected pick ups and drop offs from
-                                                several locations. I admire the hard and
-                                                friendly workers. Only can say positive things!
-                                                I prefer over UBER! I have only been ordering
-                                                TOGETHERBGO since December 2021.
-                                            </p>
-                                            <div class="lqte_scarea">
-                                                <i class="fa-solid fa-quote-right klnc_icontext"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                 </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="tstcontent_areaout">
+                                <p class="phttxet_design">
+                                  {{item.description}}
+                                </p>
+                                <div class="lqte_scarea">
+                                  <i class="fa-solid fa-quote-right klnc_icontext"></i>
+                                </div>
+                              </div>
                             </div>
+                          </div>
                         </div>
-                    </div>
+                      </div>
+                    </ng-template>
+                  </owl-carousel-o>
+<!--                    <div class="col-lg-4">-->
+<!--                        <div class="singlebox_testimnlarea">-->
+<!--                            <div class="singlebox_testimnlarea1">-->
+<!--                                 <div class="row">-->
+<!--                                     <div class="col-4">-->
+<!--                                         <div class="clnt_imgarea">-->
+<!--                                            <img src="assets/images/010.jpg" class="clkntimg_design">-->
+<!--                                         </div>-->
+<!--                                     </div>-->
+<!--                                     <div class="col-lg-8">-->
+<!--                                        <div class="clntnme_textarea">-->
+<!--                                             <h1 class="clntnme_textdesign">-->
+<!--                                                Colin Jones-->
+<!--                                             </h1>-->
+<!--                                             <img src="assets/images/rating.png" class="gstaricon_Design">-->
+<!--                                        </div>-->
+<!--                                     </div>-->
+<!--                                 </div>-->
+<!--                                 <div class="row">-->
+<!--                                    <div class="col-lg-12">-->
+<!--                                        <div class="tstcontent_areaout">-->
+<!--                                            <p class="phttxet_design">-->
+<!--                                                Personally have taken RideON several times. Enough-->
+<!--                                                to know on how to navigate and look out for wait-->
+<!--                                                times/expected pick ups and drop offs from-->
+<!--                                                several locations. I admire the hard and-->
+<!--                                                friendly workers. Only can say positive things!-->
+<!--                                                I prefer over UBER! I have only been ordering-->
+<!--                                                TOGETHERBGO since December 2021.-->
+<!--                                            </p>-->
+<!--                                            <div class="lqte_scarea">-->
+<!--                                                <i class="fa-solid fa-quote-right klnc_icontext"></i>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                 </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-4">-->
+<!--                        <div class="singlebox_testimnlarea">-->
+<!--                            <div class="singlebox_testimnlarea1">-->
+<!--                                 <div class="row">-->
+<!--                                     <div class="col-4">-->
+<!--                                         <div class="clnt_imgarea">-->
+<!--                                            <img src="assets/images/022.jpg" class="clkntimg_design">-->
+<!--                                         </div>-->
+<!--                                     </div>-->
+<!--                                     <div class="col-lg-8">-->
+<!--                                        <div class="clntnme_textarea">-->
+<!--                                             <h1 class="clntnme_textdesign">-->
+<!--                                                Keva-->
+<!--                                             </h1>-->
+<!--                                             <img src="assets/images/rating1.png" class="gstaricon_Design">-->
+<!--                                        </div>-->
+<!--                                     </div>-->
+<!--                                 </div>-->
+<!--                                 <div class="row">-->
+<!--                                    <div class="col-lg-12">-->
+<!--                                        <div class="tstcontent_areaout">-->
+<!--                                            <p class="phttxet_design">-->
+<!--                                                Personally have taken RideON several times. Enough-->
+<!--                                                to know on how to navigate and look out for wait-->
+<!--                                                times/expected pick ups and drop offs from-->
+<!--                                                several locations. I admire the hard and-->
+<!--                                                friendly workers. Only can say positive things!-->
+<!--                                                I prefer over UBER! I have only been ordering-->
+<!--                                                TOGETHERBGO since December 2021.-->
+<!--                                            </p>-->
+<!--                                            <div class="lqte_scarea">-->
+<!--                                                <i class="fa-solid fa-quote-right klnc_icontext"></i>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                 </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-4">-->
+<!--                        <div class="singlebox_testimnlarea">-->
+<!--                            <div class="singlebox_testimnlarea1">-->
+<!--                                 <div class="row">-->
+<!--                                     <div class="col-4">-->
+<!--                                         <div class="clnt_imgarea">-->
+<!--                                            <img src="assets/images/010.jpg" class="clkntimg_design">-->
+<!--                                         </div>-->
+<!--                                     </div>-->
+<!--                                     <div class="col-lg-8">-->
+<!--                                        <div class="clntnme_textarea">-->
+<!--                                             <h1 class="clntnme_textdesign">-->
+<!--                                                Colin Jones-->
+<!--                                             </h1>-->
+<!--                                             <img src="assets/images/rating.png" class="gstaricon_Design">-->
+<!--                                        </div>-->
+<!--                                     </div>-->
+<!--                                 </div>-->
+<!--                                 <div class="row">-->
+<!--                                    <div class="col-lg-12">-->
+<!--                                        <div class="tstcontent_areaout">-->
+<!--                                            <p class="phttxet_design">-->
+<!--                                                Personally have taken RideON several times. Enough-->
+<!--                                                to know on how to navigate and look out for wait-->
+<!--                                                times/expected pick ups and drop offs from-->
+<!--                                                several locations. I admire the hard and-->
+<!--                                                friendly workers. Only can say positive things!-->
+<!--                                                I prefer over UBER! I have only been ordering-->
+<!--                                                TOGETHERBGO since December 2021.-->
+<!--                                            </p>-->
+<!--                                            <div class="lqte_scarea">-->
+<!--                                                <i class="fa-solid fa-quote-right klnc_icontext"></i>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                 </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>

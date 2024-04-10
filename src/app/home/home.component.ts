@@ -6,6 +6,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import {CityService} from "../services/city.service";
 import {environment} from "../../environments/environment";
 import {ServicesService} from "../services/services.service";
+import {TestimonialService} from "../services/testimonial.service";
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -46,7 +47,9 @@ export class HomeComponent {
 
   cityList: any[] = [];
   serviceList: any[] = [];
-  constructor(private cityService: CityService, private servicesService:ServicesService) {
+  testimonialList: any[] = [];
+  constructor(private cityService: CityService, private servicesService:ServicesService
+              , private testimonialService: TestimonialService) {
     this.cityService.getCityListListener().subscribe((response) => {
       this.cityList = response;
     });
@@ -55,5 +58,10 @@ export class HomeComponent {
       this.serviceList = response;
     });
     this.serviceList = this.servicesService.getServiceList();
+    this.testimonialService.getTestimonialListListener().subscribe((response) => {
+      this.testimonialList = response
+    });
+    this.testimonialList = this.testimonialService.getTestimonial();
   }
+
 }
